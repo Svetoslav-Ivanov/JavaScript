@@ -1,0 +1,24 @@
+.card {
+    border: 3px solid black;
+    width: 128px;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+}
+
+.liked {
+    background-color: hotpink;
+}
+
+.blocked {
+    background-color: grey;
+}
+
+.neutral {
+    background-color: white;
+}
+
+.results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

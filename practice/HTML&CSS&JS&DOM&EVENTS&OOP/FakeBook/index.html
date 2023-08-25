@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .card {
+            border: 3px solid black;
+            width: 128px;
+            flex-basis: 20%;
+            flex-wrap: wrap;
+        }
+
+        .liked {
+            background-color: hotpink;
+        }
+
+        .blocked {
+            background-color: grey;
+        }
+
+        .neutral {
+            background-color: white;
+        }
+
+        .results{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#liked">Liked Users</a></li>
+                <li><a href="#blocked">Blocked Users</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="homePage">
+            <div id="filter">
+                <input type="text" id="filter-field" placeholder="ex. Pablo">
+            </div>
+            <div id="filter-result"></div>
+        </div>
+        <div id="likedPage">Liked users page</div>
+        <div id="blockedPage">Blocked users page</div>
+    </main>
+
+    <script src="assets/js/model/LoggedUser.js"></script>
+    <script src="assets/js/model/User.js"></script>
+    <script src="assets/js/model/UserManager.js"></script>
+    <script src="assets/js/FakeUsers.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

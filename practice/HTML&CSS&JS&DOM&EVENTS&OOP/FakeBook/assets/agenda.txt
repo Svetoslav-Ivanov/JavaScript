@@ -1,0 +1,9 @@
+Website -> Fakebook
+
+Home Page -> list all users
+    -> Like user
+    -> Block a user
+Liked Users Page -> list all users we have Liked
+    -> Remove liked user
+Blocked users Page
+    -> Remove a blocked user
